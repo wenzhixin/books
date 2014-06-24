@@ -1,0 +1,12 @@
+{
+  "name": "backbone-require",
+  "version": "1.0.0",
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "underscore": "~1.6.0",
+    "jquery": "~2.1.1",
+    "requirejs": "~2.1.12",
+    "requirejs-text": "~2.0.12",
+    "bootstrap": "~3.1.1"
+  }
+}

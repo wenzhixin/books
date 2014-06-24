@@ -1,0 +1,19 @@
+<div class="col-md-3">
+    <div class="panel panel-default">
+        <div class="panel-heading" class="ellipsis" data-row="1">
+            <span class="badge"><%= bookStatus(status) %></span>
+            <a href="<%= isbn ? 'http://book.douban.com/isbn/' + isbn : 'http://book.douban.com/series/' + series %>" target="_blank" title="《<%= title %>》">
+                《<%= title %>》
+            </a>
+        </div>
+        <div class="panel-body">
+            <div class="raty" data-number="10" data-score="<%= rating.average %>"></div>
+            <p>
+                <img class="small" src="<%= images.small %>" align="left">
+                <span class="ellipsis" data-row="6"><%= summary %></span>
+            </p>
+            <p class="ellipsis" data-row="2">作者：<%= author.join('、') || '无' %></p>
+            <p>收藏时间：<%= buy_time || '无（借阅或电子版）' %></p>
+        </div>
+    </div>
+</div>
