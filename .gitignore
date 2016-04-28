@@ -3,3 +3,4 @@ bootstrap.sh
 bower_components/
 docs/
 node_modules/
+deploy.sh
